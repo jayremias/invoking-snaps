@@ -1,0 +1,1 @@
+export { defaultEncryptSnapOrigin } from './snap';

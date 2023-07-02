@@ -1,0 +1,28 @@
+{
+  "version": "0.1.0",
+  "description": "Encrypt Snap.",
+  "proposedName": "Encrypt Snap",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MetaMask/template-snap-monorepo.git"
+  },
+  "source": {
+    "shasum": "8tLObXI0wkCIfMy7RAVO0E6SOIpeTpAhhn7KtW6YYBo=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/icon.svg",
+        "packageName": "snap-encrypt",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "snap_dialog": {},
+    "endowment:rpc": {
+      "dapps": true,
+      "snaps": true
+    }
+  },
+  "manifestVersion": "0.1"
+}
